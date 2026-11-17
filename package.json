@@ -1,0 +1,14 @@
+{
+  "name": "teacheros-mobile",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/cli": "^6.1.2"
+  }
+}
